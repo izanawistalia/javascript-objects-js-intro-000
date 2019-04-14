@@ -7,3 +7,4 @@ function removeFromPlaylist(obj, key){
 }
 var playlist = { matsushitaYuya : 'bird'}
 updatePlaylist(playlist, 'matsushitaYuya', 'hallucination');
+removeFromPlaylist(playlist, 'matsushitaYuya');
