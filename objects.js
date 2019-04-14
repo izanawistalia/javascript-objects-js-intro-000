@@ -5,5 +5,5 @@ function removeFromPlaylist(obj, key){
   delete obj.key ;
   return obj ;
 }
-var playlist = { matsushita yuya : 'bird'}
-updatePlaylist(playlist, 'matsushita yuya', 'hallucination');
+var playlist = { matsushitaYuya : 'bird'}
+updatePlaylist(playlist, 'matsushitaYuya', 'hallucination');
